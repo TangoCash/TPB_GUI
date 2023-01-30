@@ -1,0 +1,141 @@
+  "0" "BZ GUI 2023 v1.1" ""	
+
+"1" "BZ-Public II"
+{
+	"1" "Adminchat" "messagemode amx_chat"
+	"2" "Mod-Menü" "amxmodmenu"
+	"3" "Mapvote" "messagemode amx_votemap"
+	"4" "Nextmap" "exec CFGs/nextmap.cfg"
+	"5" "Changelevel" "messagemode amx_map"
+	"6" "Player umbenennen" "playername"
+	"7" "Slap/Slay-Menü" "amx_slapmenu"
+	"8" "Kick-Menü" "amx_kickmenu"
+	"9" "Ban-Menü" "amx_banmenu"
+}
+
+"2" "BZ-Warserver"
+{
+	"1" "RCON-Passwort" "exec CFGs/custom/rcon1.cfg"
+	"2" "Maps"
+	{
+	"1" "Standard" 
+	{ 
+	"1" "de_aztec" "rcon changelevel de_aztec" 
+	"2" "de_cbble" "rcon changelevel de_cbble" 
+	"3" "de_chateau" "rcon changelevel de_chateau" 
+	"4" "de_dust" "rcon changelevel de_dust" 
+	"5" "de_dust2" "rcon changelevel de_dust2" 
+	"6" "de_inferno" "rcon changelevel de_inferno" 
+	"7" "de_nuke" "rcon changelevel de_nuke" 
+	"8" "de_prodigy" "rcon changelevel de_prodigy" 
+	"9" "de_train" "rcon changelevel de_train" 
+	}
+	"2" "Fastcup" 
+	{ 
+	"1" "de_lite" "rcon changelevel de_lite"
+	"2" "de_mirage" "rcon changelevel de_mirage"
+	"3" "de_tuscan" "rcon changelevel de_tuscan"
+	}
+	"3" "Inofficial" 
+	{
+	"1" "css_cache" "rcon changelevel css_cache"
+	"2" "css_cbble" "rcon changelevel css_cbble"
+	"3" "css_dust" "rcon changelevel css_dust"
+	"4" "de_blue" "rcon changelevel de_blue"
+	"5" "de_depot_b9" "rcon changelevel de_depot_b9"
+	"6" "de_dinaunion" "rcon changelevel de_dinaunion"
+	"7" "de_sunny" "rcon changelevel de_sunny"
+	}
+	"4" "Aim" 
+	{ 
+	"1" "aim_map" "rcon changelevel aim_map"
+	"2" "awp_india" "rcon changelevel awp_india"
+	}
+	}
+	"3" "Settings"
+	{
+	"1" "ESL 5on5" "exec CFGs/ESL5on5.cfg"
+	"2" "Publicsettings" "exec CFGs/PUB.cfg"
+	"3" "Warmupsettings" "exec CFGs/Warmup.cfg"
+	}
+	"5" "Roundrestarts"
+	{
+	"1" "1 x RR" "rcon sv_restartround 1"	
+	"2" "3 x RR" "exec CFGs/Waitings.cfg;rcon sv_restartround 1;wa50;wa50;rcon sv_restartround 1;wa50;wa50;rcon sv_restartround 1"
+	"3" "KNIFE" "exec CFGs/KNIFE.cfg"
+	"4" "LIVE" "exec CFGs/LIVE.cfg"
+	}
+	"6" "Pause/Unpause"
+	{
+	"1" "Pause" "exec CFGs/pause_on.cfg"
+	"2" "Unpause" "exec CFGs/pause_off.cfg"
+	}
+
+}
+
+"3" "Sonstiges"
+{
+	"1" "Fadenkreuzfarbe"
+	{
+	"1" "Standard" "exec CFGs/crosshair_color1.cfg"
+	"2" "Rot" "exec CFGs/crosshair_color2.cfg"
+	"3" "Grün" "exec CFGs/crosshair_color3.cfg"
+	"4" "Blau" "exec CFGs/crosshair_color4.cfg"
+	"5" "Cyan" "exec CFGs/crosshair_color5.cfg"
+	"6" "Magenta" "exec CFGs/crosshair_color6.cfg"
+	"7" "Gelb" "exec CFGs/crosshair_color7.cfg"
+	"8" "Schwarz" "exec CFGs/crosshair_color8.cfg"
+	"9" "Weiss" "exec CFGs/crosshair_color9.cfg"
+	}
+	"2" "Dynamisches Fadenkreuz"
+	{
+	"1" "AN" "cl_dynamiccrosshair 1"
+	"2" "AUS" "cl_dynamiccrosshair 0"
+	}
+	"3" "Fadenkreuzgröße"
+	{
+	"1" "Klein" "cl_crosshair_size 1"
+	"2" "Mittel" "cl_crosshair_size 2"
+	"3" "Groß" "cl_crosshair_size 3"
+	}
+	"4" "Nicknames"
+	{
+	"1" "BetreutesZocken" "exec CFGs/custom/nickname1.cfg"
+	"2" "Name 2" "exec CFGs/custom/nickname2.cfg"
+	"3" "Name 3" "exec CFGs/custom/nickname3.cfg"
+	"4" "Name 4" "exec CFGs/custom/nickname4.cfg"
+	"5" "Name 5" "exec CFGs/custom/nickname5.cfg"
+	}
+	"5" "Spieleravatare"
+	{
+	"1" "AN" "scoreboard_showavatars 1"
+	"2" "AUS" "scoreboard_showavatars 0"
+	}
+	"6" "Waffenbewegung"
+	{
+	"1" "AN" "cl_bob 0.01"
+	"2" "AUS" "cl_bob 0"
+	}
+	"7" "Minmodels"
+	{
+	"1" "AN" "cl_minmodels 1"
+	"2" "AUS" "cl_minmodels 0"
+	}
+	"8" "Netgraph"
+	{
+	"1" "AN" "net_graph 1"
+	"2" "AUS" "net_graph 0"
+	}
+	"9" "Voice"
+	{
+	"1" "AN" "voice_enable 1"
+	"2" "AUS" "voice_enable 0"
+	}
+	"10" "Wettereffekte"
+	{
+	"1" "AN" "cl_weather 1"
+	"2" "AUS" "cl_weather 0"
+	}
+}
+
+"4" "Zurück" "cancelselect"

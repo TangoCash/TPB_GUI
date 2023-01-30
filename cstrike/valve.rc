@@ -1,0 +1,41 @@
+// Client settings
+net_graph 0			
+cl_movespeedkey 0.52		
+cl_pitchspeed 225		
+cl_showevents 0			
+cl_showerror 0			
+cl_pmanstats 0			
+cl_lc 1				
+cl_lw 1				
+d_spriteskip 0			
+gl_max_size 512			
+gl_monolights 0			
+gl_picmip 0			
+s_show 0			
+s_a3d 0			
+lightgamma 2.5			
+texgamma 2.0			
+hpk_maxsize 0.001
+rate 100000
+cl_updaterate 100
+cl_cmdrate 105
+ex_interp 0.01
+
+// FASTCUP settings
+alias "fc_gg" "say !gg"
+alias "fc_pause" "say !pause"
+
+// Player name generator
+alias playername "playername1"
+alias playername1 "exec CFGs/playername1.cfg; alias playername playername2"
+alias playername2 "exec CFGs/playername2.cfg; alias playername playername3"
+alias playername3 "exec CFGs/playername3.cfg; alias playername playername4"
+alias playername4 "exec CFGs/playername4.cfg; alias playername playername5"
+alias playername5 "exec CFGs/playername5.cfg; alias playername playername6"
+alias playername6 "exec CFGs/playername6.cfg;alias playername playername1"
+
+//
+// stuff command line statements
+//
+stuffcmds
+

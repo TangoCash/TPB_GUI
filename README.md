@@ -1,14 +1,11 @@
-+---------------------------------------------+
-|                  BZ GUI 2023                |
-|   	      Code und Design von             |
-|                Benni "PerCenT" 	      |
-+---------------------------------------------+
-
+# BZ GUI 2023
+## Code und Design von
+## Benni "PerCenT"
 
 Für optimalen Gebrauch, bitte die Anweisung lesen:
 
 1) Installation
-Entpacke die Datei "BZGUI2023.zip" in das Verzeichnis /steamapps/common/Half-Life/. Stelle sicher, dass du alle Dateien überschreibst.
+Entpacke die Datei "https://github.com/TangoCash/BZ_GUI/archive/refs/heads/master.zip" in das Verzeichnis /steamapps/common/Half-Life/. Stelle sicher, dass du alle Dateien überschreibst.
 Ich empfehle jedem, die Mausbeschleunigung zu deaktivieren. Um die Mausbeschleunigung zu deaktivieren, füge -noforcemparms -noforcemaccel deinen Launch Options von Counter-Strike in Steam hinzu.
 Füge dort außerdem noch -freq xxx (xxx = Hertzzahl deines Monitors) hinzu, um mit der höchstmöglichen Bildwiederholfrequenz spielen zu können.
 

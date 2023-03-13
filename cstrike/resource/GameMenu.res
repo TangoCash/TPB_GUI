@@ -1,5 +1,19 @@
 "GameMenu"
 {
+	"-2"
+	{
+		"label" "TP:B PUBLIC"
+		"command" "engine connect 144.76.99.190:27015"
+	}
+	"-1"
+	{
+		"label" "TP:B INTERN"
+		"command" "engine password tbwar;connect 144.76.99.190:27030"
+	}
+	"0"
+	{
+		"label" " "
+	}
 	"1"
 	{
 		"label" "#GameUI_GameMenu_ResumeGame"
@@ -40,11 +54,6 @@
 	{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
-	}
-	"12"
-	{
-		"label" ""
-		"command" ""
 	}
 	"13"
 	{

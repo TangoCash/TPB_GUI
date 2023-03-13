@@ -1,6 +1,6 @@
-  "0" "BZ GUI 2023" ""	
+  "0" "TP:B GUI 2023 v1.0" ""	
 
-"1" "BZ-Public II"
+"1" "TP:B Public"
 {
 	"1" "Adminchat" "messagemode amx_chat"
 	"2" "Mod-Menü" "amxmodmenu"
@@ -13,7 +13,7 @@
 	"9" "Ban-Menü" "amx_banmenu"
 }
 
-"2" "BZ-Warserver"
+"2" "TP:B Warserver"
 {
 	"1" "RCON-Passwort" "exec CFGs/custom/rcon1.cfg"
 	"2" "Maps"
@@ -100,7 +100,7 @@
 	}
 	"4" "Nicknames"
 	{
-	"1" "BetreutesZocken" "exec CFGs/custom/nickname1.cfg"
+	"1" "Treffpunkt-B" "exec CFGs/custom/nickname1.cfg"
 	"2" "Name 2" "exec CFGs/custom/nickname2.cfg"
 	"3" "Name 3" "exec CFGs/custom/nickname3.cfg"
 	"4" "Name 4" "exec CFGs/custom/nickname4.cfg"

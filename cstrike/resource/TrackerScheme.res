@@ -1,188 +1,184 @@
 //
-// BZ | TRACKER SCHEME RESOURCE FILE
-//               w w w . b e t r e u t e s z o c k e n . d e
+// TP:B | TRACKER SCHEME RESOURCE FILE
+//               w w w . t r e f f p u n k t - b . d e
 //
 // sections:
 //		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
+//		basesettings		- contains settings for app to use to draw controls
 //		fonts			- list of all the fonts used by app
 //		borders			- description of all the borders
 //
 // notes:
 // 		hit ctrl-alt-shift-R in the app to reload this file
-//
+// 
 Scheme
 {
-	//////////////////////// COLORS ///////////////////////////
+	//////////////////////// TP:B COLORS ///////////////////////////
 	Colors
 	{
 		// base colors
-		"BaseText"			"255 255 255 255"	// used in text windows, lists
-		"BaseText2"			"255 255 255 255"
-		"BaseText3"			"160 160 160 255"
-		"BrightBaseText"		"255 255 255 255"	// brightest text
-		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"255 255 255 255"	// dim base text
-		"LabelDimText"		"160 170 149 255"	// used for info text
-		"ControlText"		"255 255 255 255"	// used in all text controls
-		"BrightControlText"	"0 192 255 255"	// use for selected controls
-		"DisabledText1"		"117 128 111 255"	// disabled text
-		"DisabledText2"		"40 46 34 255"		// overlay color for disabled text (to give that inset look)
-		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
+		"BaseText"			"1 143 136 255"		// used in text windows, lists
+		"BrightBaseText"			"255 255 255 255"		// brightest text
+		"SelectedText"			"0 0 0 255"		// selected text
+		"DimBaseText"			"255 250 250 255"		// dim base text
+		"LabelDimText"			"255 255 255 255"		// used for info text
+		"ControlText"			"255 255 255 255"		// used in all text controls
+		"BrightControlText"			"1 143 136 255"		// use for selected controls
+		"DisabledText1"			"255 255 255 255"		// disabled text
+		"DisabledText2"			"255 255 255 255"		// overlay color for disabled text (to give that inset look)
+		"DimListText"			"255 255 255 255"		// offline friends, unsubscribed games, etc.
 
 		// background colors
-		"ControlBG"		"0 46 76 255"		// background color of controls
-		"ControlDarkBG"		"0 0 0 255"		// darker background color; used for background of scrollbars
-		"WindowBG"		"0 31 56 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"0 113 184 255"		// background color of any selected text or menu item
-		"SelectionBG2"		"40 46 34 255"		// selection background in window w/o focus
-		//"ListBG"		"0 0 0 255"			// background of server browser, buddy list, etc.
-		"ListBG"			"0 0 0 255"
-		"DarkBG"			"0 0 0 255"
+		"ControlBG"			"12 12 12 235"			// background color of controls
+		"ControlDarkBG"			"1 143 136 155"			// darker background color; used for background of scrollbars
+		"WindowBG"			"0 0 0 255"			// background color of text edit panes (chat, text entries, etc. LongHorn)
+		"SelectionBG"			"1 143 136 255"			// background color of any selected text or menu item
+		"SelectionBG2"			"0 0 0 255"			// selection background in window w/o focus
+		"ListBG"				"15 15 15 200"			// background of server browser, buddy list, etc.
 
 		// titlebar colors
-		"TitleText"			"255 255 255 255"
-		"TitleDimText"		"136 145 128 255"
-		"TitleBG"			"76 88 68 0"
-		"TitleDimBG"		"76 88 68 0"
+		"TitleText"				"1 143 136 255"
+		"TitleDimText"			"255 255 255 255"
+		"TitleBG"				"12 12 12 235"
+		"TitleDimBG"			"0 0 0 0"
 		
 		// slider tick colors
-		"SliderTickColor"	"255 255 255 255"
-		"SliderTrackColor"	"0 0 0 255"
+		"SliderTickColor"			"1 143 136 100"
+		"SliderTrackColor"			"1 143 136 150"
 
 		// border colors
-		"BorderBright"		"0 0 0 255"		// the lit side of a control
-		"BorderDark"		"0 0 0 255"		// the dark/unlit side of a control
-		"BorderSelection"	"0 0 0 255"		// the additional border color for displaying the default/selected button
+		"BorderBright"			"30 30 30 200"			// the lit side of a control
+		"BorderDark"			"0 0 0 255"			// the dark/unlit side of a control
+		"BorderSelection"			"0 0 0 255"			// the additional border color for displaying the default/selected button
 	}
 
-	///////////////////// BASE SETTINGS ////////////////////////
+	///////////////////// TP:B BASE SETTINGS ////////////////////////
 	// default settings for all panels
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		"FgColor"						"ControlText"
-		"BgColor"						"ControlBG"
-		"LabelBgColor"					"ControlBG"
-		"SubPanelBgColor"				"DarkBG" 			// "ControlBG"
+		"FgColor"				"ControlText"
+		"BgColor"				"ControlBG"
+		"LabelBgColor"				"0 0 0 0"
+		"SubPanelBgColor"				"0 0 0 0"
 
-		"DisabledFgColor1"				"DisabledText1" 
-		"DisabledFgColor2"				"DisabledText2"		// set this to the BgColor if you don't want it to draw
+		"DisabledFgColor1"			"DisabledText1" 
+		"DisabledFgColor2"			"DisabledText2"			// set this to the BgColor if you don't want it to draw
 
 		"TitleBarFgColor"				"TitleText"
-		"TitleBarDisabledFgColor"		"TitleDimText"
+		"TitleBarDisabledFgColor"			"TitleDimText"
 		"TitleBarBgColor"				"TitleBG"
-		"TitleBarDisabledBgColor"		"TitleDimBG"
+		"TitleBarDisabledBgColor"			"TitleDimBG"
 
-		"TitleBarIcon"					"resource/icon_steam"
+		"TitleBarIcon"				"resource/icon_steam"
 		"TitleBarDisabledIcon"			"resource/icon_steam_disabled"
 
-		"TitleButtonFgColor"			"BorderBright"
-		"TitleButtonBgColor"			"ControlBG"
-		"TitleButtonDisabledFgColor"	"TitleDimText"
-		"TitleButtonDisabledBgColor"	"TitleDimBG"
+		"TitleButtonFgColor"			"1 143 136 255"
+		"TitleButtonBgColor"			"0 0 0 0"
+		"TitleButtonDisabledFgColor"		"TitleDimText"
+		"TitleButtonDisabledBgColor"		"0 0 0 0"
 
-		"TextCursorColor"				"BaseText2"			// color of the blinking text cursor in text entries
-		"URLTextColor"					"BaseText2"			// color that URL's show up in chat window
+		"TextCursorColor"				"BaseText"			// color of the blinking text cursor in text entries
+		"URLTextColor"				"BrightBaseText"			// color that URL's show up in chat window
 
 		Menu
 		{
-			"FgColor"					"BaseText2"
-			"BgColor"					"DarkBG"			// "ControlBG"
-			"ArmedFgColor"				"BaseText2"
-			"ArmedBgColor"				"DarkBG" 			// "SelectionBG"
-			"DividerColor"				"BorderDark"
+			"FgColor"			"DimBaseText"
+			"BgColor"			"ControlBG"
+			"ArmedFgColor"			"BrightBaseText"
+			"ArmedBgColor"			"SelectionBG"
+			"DividerColor"			"BorderDark"
 
-			"TextInset"					"6"
+			"TextInset"			"1"
 		}
 
-		MenuButton	  // the little arrow on the side of boxes that triggers drop down menus
+		MenuButton	 					 	// the little arrow on the side of boxes that triggers drop down menus
 		{
-			"ButtonArrowColor"			"BaseText2"		// color of arrows
-		   	"ButtonBgColor"				"DarkBG"		// bg color of button. same as background color of text edit panes 
-			"ArmedArrowColor"			"BaseText"		// color of arrow when mouse is over button
-			"ArmedBgColor"				"BaseText"		// bg color of button when mouse is over button
+			"ButtonArrowColor"	"240 255 240 255"			// color of arrows
+		   	"ButtonBgColor"		"0 0 0 255"			// bg color of button. same as background color of text edit panes 
+			"ArmedArrowColor"	"0 203 194 255"			// color of arrow when mouse is over button
+			"ArmedBgColor"		"0 0 0 255"			// bg color of button when mouse is over button
 		}
 
 		Slider
 		{
-			"SliderFgColor"				"ControlBG"		// handle with which the slider is grabbed
-			"SliderBgColor"				"ControlDarkBG"		// area behind handle
+			"SliderFgColor"		"130 130 130 250"			// handle with which the slider is grabbed
+			"SliderBgColor"		"130 130 130 130"			// area behind handle
 		}
 
 		ScrollBarSlider
 		{
-			"BgColor"					"ControlBG"	// this isn't really used
-			"ScrollBarSliderFgColor"	"ControlBG"	// handle with which the slider is grabbed
-			"ScrollBarSliderBgColor"	"ControlDarkBG"	// area behind handle
-			"ButtonFgColor"				"DimBaseText"	// color of arrows
+			"BgColor"			"ControlBG"		// this isn't really used
+			"ScrollBarSliderFgColor"		"10 10 10 255"		// handle with which the slider is grabbed
+			"ScrollBarSliderBgColor"		"ControlDarkBG"		// area behind handle
+			"ButtonFgColor"			"255 255 255 255"		// color of arrows
 		}
 
 
 		// text edit windows
-		"WindowFgColor"					"BaseText2"		// off-white
-		"WindowBgColor"					"DarkBG"		// redundant. can we get rid of WindowBgColor and just use WindowBG?
-		"WindowDisabledFgColor"			"BaseText2"
-		"WindowDisabledBgColor"			"DarkBG"		// background of chat conversation
-		"SelectionFgColor"				"BaseText"		// fg color of selected text
-		"SelectionBgColor"				"0 113 184 255"		// "SelectionBG"
-		"ListSelectionFgColor"			"BaseText"
-		"ListBgColor"					"DarkBG" 		// Default: "ListBG" // background of server browser control, etc
-		"BuddyListBgColor"				"DarkBG"		// background of buddy list pane
+		"WindowFgColor"			"BaseText"			// off-white
+		"WindowBgColor"			"WindowBG"			// redundant. can we get rid of WindowBgColor and just use WindowBG?
+		"WindowDisabledFgColor"		"DimBaseText"
+		"WindowDisabledBgColor"		"ListBG"				// background of chat conversation
+		"SelectionFgColor"			"SelectedText"			// fg color of selected text
+		"SelectionBgColor"			"SelectionBG"
+		"ListSelectionFgColor"		"SelectedText"
+		"ListBgColor"			"ListBG"				// background of server browser control, etc
+		"BuddyListBgColor"		"ListBG"				// background of buddy list pane
 		
 		// App-specific stuff
-		"ChatBgColor"					"DarkBG"
+		"ChatBgColor"			"WindowBG"
 
 		// status selection
-		"StatusSelectFgColor"			"BaseText"
-		"StatusSelectFgColor2"			"BaseText"		// this is the color of the friends status
+		"StatusSelectFgColor"		"BrightBaseText"
+		"StatusSelectFgColor2"		"BrightControlText"		// this is the color of the friends status
 
 		// checkboxes
-		"CheckButtonBorder1"   			"BorderDark"		// the left checkbutton border
-		"CheckButtonBorder2"   			"BorderBright"		// the right checkbutton border
-		"CheckButtonCheck"				"BaseText"		// color of the check itself
-		"CheckBgColor"					"DarkBG"		// "ListBG"
+		"CheckButtonBorder1"   		"BorderDark"			// the left checkbutton border
+		"CheckButtonBorder2"   		"BorderBright"			// the right checkbutton border
+		"CheckButtonCheck"		"BrightControlText"		// color of the check itself
+		"CheckBgColor"			"ListBG"
 
 		// buttons (default fg/bg colors are used if these are not set)
 //		"ButtonArmedFgColor"
 //		"ButtonArmedBgColor"
-//		"ButtonDepressedFgColor"		"BaseText"
+//		"ButtonDepressedFgColor"	"BrightControlText"
 //		"ButtonDepressedBgColor"
 
 		// buddy buttons
 		BuddyButton
 		{
-			"FgColor1"					"BaseText"
-			"FgColor2"					"BaseText"
-			"ArmedFgColor1"				"BaseText"
-			"ArmedFgColor2"				"BaseText"
-			"ArmedBgColor"				"SelectionBG"
+			"FgColor1"		"ControlText"
+			"FgColor2"		"DimListText"
+			"ArmedFgColor1"		"BrightBaseText"
+			"ArmedFgColor2"		"BrightBaseText"
+			"ArmedBgColor"		"SelectionBG"
 		}
 
 		Chat
 		{
-			"TextColor"					"BaseText"
-			"SelfTextColor"				"BaseText"
-			"SeperatorTextColor"		"BaseText"
+			"TextColor"		"BrightControlText"
+			"SelfTextColor"		"BaseText"
+			"SeperatorTextColor"	"DimBaseText"
 		}
 
 		InGameDesktop
 		{
-			"MenuColor"					"104 218 255 255"
-			"ArmedMenuColor"			"255 255 255 255"
+			"MenuColor"			"248 248 245 255"
+			"ArmedMenuColor"			"1 143 136 255"
 			"DepressedMenuColor" 		"192 186 80 255"
 			"WidescreenBarColor" 		"0 0 0 0"
-			"MenuItemVisibilityRate" 	"0.03"  			// time it takes for one menu item to appear
-			"MenuItemHeight"			"28"
-			"GameMenuInset"				"32"
+			"MenuItemVisibilityRate" 		"0" 			 // time it takes for one menu item to appear
+			"MenuItemHeight"			"22"
+			"GameMenuInset"			"30"
 		}
 
-		"SectionTextColor"		"BaseText3"		// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
-		"SectionDividerColor"		"BorderDark"		// color of line that runs under section name in buddy list
+		"SectionTextColor"				"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
+		"SectionDividerColor"			"BorderDark"		// color of line that runs under section name in buddy list
 	}
 
 	//
-	//////////////////////// FONTS /////////////////////////////
+	//////////////////////// TP:B FONTS /////////////////////////////
 	//
 	// describes all the fonts
 	Fonts
@@ -194,9 +190,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"weight"	"0"
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"14"
+				"dropshadow"	"0"
+				"antialias" "1"
 			}
 		}
 		"DefaultBold"
@@ -204,18 +202,20 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"16"
+				"tall"		"18"
 				"weight"	"500"
+				"antialias" "1"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Verdana"
+				"tall"		"13"
 				"weight"	"0"
 				"underline" "1"
+				"antialias" "1"
 			}
 		}
 		"DefaultSmall"
@@ -225,6 +225,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"13"
 				"weight"	"0"
+				"antialias" "1"
 			}
 		}
 		"DefaultSmallBold"
@@ -234,6 +235,7 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"600"
+				"antialias" "1"
 			}
 		}
 		"DefaultVerySmall"
@@ -243,16 +245,39 @@ Scheme
 				"name"		"Tahoma"
 				"tall"		"12"
 				"weight"	"0"
+				"antialias" "1"
+				
 			}
 		}
 		"MenuLarge"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"csp_font"
+				"tall"		"11"
+				"weight"	"12"
+				"dropshadow"	"1"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"		"Bebas Neue"
 				"tall"		"18"
-				"weight"	"1000"
-				"antialias" "0"
+				"weight"	"800"
+				"dropshadow"	"5"
+				"antialias" "1"
+				
+			}
+		}
+		"Spec"
+		{
+			"1"
+			{				
+				"name"		"Bebas Neue"
+				"tall"		"20"
+				"weight"		"400"
+				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"UiHeadline"
@@ -260,9 +285,9 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"18"
 				"weight"	"1000"
-				"antialias" "0"
+				"antialias" "1"
 			}
 		}
 
@@ -341,22 +366,22 @@ Scheme
 				"tall"		"20"
 				"weight"	"700"
 				"antialias"	"1"
-				"yres"	"1 10000"
+				"yres"		"1 10000"
 			}
 		}
 	}
 
 	//
-	//////////////////// BORDERS //////////////////////////////
+	//////////////////// TP:B BORDERS //////////////////////////////
 	//
 	// describes all the border types
 	Borders
 	{
 		// references to other borders
 		BaseBorder		"InsetBorder"
-		ComboBoxBorder	"InsetBorder"
-		BrowserBorder	"InsetBorder"
-		ButtonBorder	"RaisedBorder"
+		ComboBoxBorder		"InsetBorder"
+		BrowserBorder		"InsetBorder"
+		ButtonBorder		"RaisedBorder"
 		FrameBorder		"RaisedBorder"
 		TabBorder		"RaisedBorder"
 		MenuBorder		"RaisedBorder"
@@ -364,7 +389,7 @@ Scheme
 		// standard borders
 		InsetBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" 		"0 0 1 1"
 			Left
 			{
 				"1"
@@ -723,7 +748,7 @@ Scheme
 			}
 		}
 
-		// this is the border used for default buttons (the button that gets pressed when you hit enter)
+		// this is the border used for default buttons (the button that gets pressed when you hit enter, zer0ne)
 		ButtonKeyFocusBorder
 		{
 			"inset" "0 0 1 1"
@@ -820,5 +845,12 @@ Scheme
 				}
 			}
 		}
+	}
+	CustomFontFiles
+	{
+		"1"		"resource/csp_font.ttf"
+		"2"		"resource/Menu-Font.ttf"
+		"3"		"resource/cstrike.ttf"
+		"4"		"resource/cs_text.otf"
 	}
 }

@@ -1,36 +1,35 @@
-# BZ GUI 2023
+# TP:B GUI 2023
 ## Code und Design von Benni "PerCenT"
 
 
-[![BZGUI2023.png](https://i.postimg.cc/brgMS2RH/BZGUI2023.png)](https://postimg.cc/0K6ZLjFb)
+[![TPBGUI.jpg](https://i.postimg.cc/K8vpftfw/TPBGUI.jpg)](https://postimg.cc/CzX4LBWs)
 
 
 Für optimalen Gebrauch, bitte die Anweisung lesen:
 
 1) Installation
-	Entpacke die Datei "https://github.com/TangoCash/BZ_GUI/archive/refs/heads/master.zip" in das Verzeichnis /steamapps/common/Half-Life/. Stelle sicher, dass du alle Dateien überschreibst.
+	Entpacke die Datei "https://github.com/TangoCash/TPB_GUI/archive/refs/heads/master.zip" in das Verzeichnis /steamapps/common/Half-Life/. Stelle sicher, dass du alle Dateien überschreibst.
 	Ich empfehle jedem, die Mausbeschleunigung zu deaktivieren. Um die Mausbeschleunigung zu deaktivieren, füge -noforcemparms -noforcemaccel deinen Launch Options von Counter-Strike in Steam hinzu.
 	Füge dort außerdem noch -freq xxx (xxx = Hertzzahl deines Monitors) hinzu, um mit der höchstmöglichen Bildwiederholfrequenz spielen zu können.
 
-	Im Verzeichnis CFGs/custom befinden sich Config-Dateien die jeder BZler an sich selbst anpassen muss:
-	rcon1.cfg = Füge hier das RCON-Passwort des BZ-Warservers ein (sofern du es kennst)
-	nickname1.cfg = Passe hier deinen BZ-Ingame-Namen an
-	nickname2-5.cfg = Hier kannst du Nicht-BZ-Nicknamen eingeben, zwischen denen du wechseln möchtest
+	Im Verzeichnis CFGs/custom befinden sich Config-Dateien die jeder TP:Bler an sich selbst anpassen muss:
+	rcon1.cfg = Füge hier das RCON-Passwort des TP:B-Warservers ein (sofern du es kennst)
+	nickname1.cfg = Passe hier deinen TP:B-Ingame-Namen an
+	nickname2-5.cfg = Hier kannst du Nicht-TP:B-Nicknamen eingeben, zwischen denen du wechseln möchtest
 
 	Im Spiel können noch einige nützliche Einstellungen mit dem Commandmenu gemacht werden. Standardmäßig kannst du ihn im Spiel mit der Taste "F10" aufrufen. 
 
 2) Disclaimer
-	Der BZ GUI ist für ein optimales Spielgefühl angepasst worden.
+	Der TP:B GUI ist für ein optimales Spielgefühl angepasst worden.
 	Ich empfehle besonders in den Configs nichts umzustellen, sondern Änderungen nur über die Ingame-Einstellungen zu machen.
 
-3) Updates
-	BZ GUI 2023 V1.0 12-2022
+3) Changelog
+	TP:B-GUI 2023 V1.0 03-2023
 	- neues Design
-	- angepasstes Tastenbelegungsmenü (ganz einfach ein Buyscript erstellen, Fastcup-Bindings uvm.)
+	- neues Design für den Spectator-Modus
+	- angepasste Tastenbelegungen (ganz einfach ein Buyscript erstellen, Fastcup-Bindings uvm.)
 	- Netsettings für die aktuelle Spielversion angepasst
-	- an die BZ-Server angepasstes Commandmenu erstellt (AMX-Befehle, Namengenerator für "Player" uvm.)
-
-	BZ GUI 2023 V1.1 01-2023
-	- Nicknames lassen sich nun auch über das Commandmenu wechseln
+	- an die TP:B-Server angepasstes Commandmenu erstellt (AMX-Befehle, Namengenerator für "Player" uvm.)
+	- Nicknames lassen sich auch über das Commandmenu wechseln
 	- 9 einstellbare Crosshairfarben dem Commandmenu hinzugefügt
-	- Maps de_lite, de_mirage, de_tuscan hinzugefügt (hauptsächlich für Fastcup wichtig)
+	- Maps de_lite, de_mirage, de_tuscan inkl. benötigter Ressourcen hinzugefügt
